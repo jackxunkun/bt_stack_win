@@ -1,0 +1,116 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "FreeRTOS_Source",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-FreeRTOS_Source-Debug-b3e66ecc11a1607ed6d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "FreeRTOS_Source",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "FreeRTOS_Source/portable",
+					"jsonFile" : "directory-FreeRTOS_Source.portable-Debug-098ce96eb88f1c47284b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "FreeRTOS_Source/portable",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "bt_stack_copy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_stack_copy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_stack_copy-Debug-5bb653bcc9fe6d309590.json",
+					"name" : "bt_stack_copy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freertos_kernel::@f5bc6e29a28fca086cf3",
+					"jsonFile" : "target-freertos_kernel-Debug-bb64e5bf0b6359f1aa56.json",
+					"name" : "freertos_kernel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freertos_kernel_port::@2a72b3bcfb2b163146ae",
+					"jsonFile" : "target-freertos_kernel_port-Debug-b3207102c0771113b3fc.json",
+					"name" : "freertos_kernel_port",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/bt_stack_copy/cmake-build-debug",
+		"source" : "F:/bt_stack_copy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

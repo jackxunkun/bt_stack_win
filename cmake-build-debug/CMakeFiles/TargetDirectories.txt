@@ -1,0 +1,9 @@
+F:/bt_stack_copy/cmake-build-debug/CMakeFiles/bt_stack_copy.dir
+F:/bt_stack_copy/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/bt_stack_copy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/bt_stack_copy/cmake-build-debug/FreeRTOS_Source/CMakeFiles/freertos_kernel.dir
+F:/bt_stack_copy/cmake-build-debug/FreeRTOS_Source/CMakeFiles/edit_cache.dir
+F:/bt_stack_copy/cmake-build-debug/FreeRTOS_Source/CMakeFiles/rebuild_cache.dir
+F:/bt_stack_copy/cmake-build-debug/FreeRTOS_Source/portable/CMakeFiles/freertos_kernel_port.dir
+F:/bt_stack_copy/cmake-build-debug/FreeRTOS_Source/portable/CMakeFiles/edit_cache.dir
+F:/bt_stack_copy/cmake-build-debug/FreeRTOS_Source/portable/CMakeFiles/rebuild_cache.dir

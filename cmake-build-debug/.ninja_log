@@ -1,0 +1,19 @@
+# ninja log v5
+16	272	7373847745909304	CMakeFiles/bt_stack_copy.dir/main.cpp.obj	5e03dcaab0608fa3
+643	742	7382405809624367	bt_stack_copy.exe	ec8a1adde93cc4b3
+8	1573	7382392262455549	CMakeFiles/bt_stack_copy.dir/main_blinky.c.obj	3db159b79606f7ed
+3	665	7382399749131368	CMakeFiles/bt_stack_copy.dir/main.c.obj	686915610dc0bd5e
+8	274	7382405856997457	build.ninja	1ee55b58d036b15f
+12	1544	7382392262195559	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/croutine.c.obj	8bb69ae1f9a200d8
+19	1598	7382392262775563	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/list.c.obj	cc92cf4400728360
+39	1584	7382392262625575	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.obj	f9721ba2b9c0ff03
+16	1584	7382392262615546	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/event_groups.c.obj	9aefe80ae51a9b14
+44	1627	7382392263058318	FreeRTOS_Source/portable/CMakeFiles/freertos_kernel_port.dir/MSVC-MingW/port.c.obj	749809d8925f1eef
+34	1626	7382392263073467	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/timers.c.obj	f3bedf0b6ce3b93c
+27	1645	7382392263253466	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/stream_buffer.c.obj	5f775ea8baf111de
+675	744	7382402301211979	FreeRTOS_Source/libfreertos_kernel.a	206a64533c1867d
+24	1672	7382392263563463	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/queue.c.obj	d2370f301e23b7e8
+31	1726	7382392264093466	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/tasks.c.obj	5e2ad5ae028c5ee5
+1627	1707	7382392263913459	FreeRTOS_Source/portable/libfreertos_kernel_port.a	c2294c0141a0aa03
+15	675	7382402300511978	FreeRTOS_Source/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_5.c.obj	e783b1e87a08d9a9
+21	642	7382405808704397	CMakeFiles/bt_stack_copy.dir/Run-time-stats-utils.c.obj	1eef08aa4605091a

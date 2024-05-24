@@ -1,0 +1,126 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "FreeRTOS_Source/portable/libfreertos_kernel_port.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"FreeRTOS_Source/portable/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 986,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wunused-but-set-variable -Wunused-variable -Wswitch-default -Werror -DHAVE_PORTAUDIO -g -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "F:/bt_stack_copy/FreeRTOS_Source/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/bt_stack_copy/FreeRTOS_Source/portable/MSVC-MingW"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "F:/bt_stack_copy"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "F:/bt_stack_copy/FreeRTOS_Source/.."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "freertos_kernel_port::@2a72b3bcfb2b163146ae",
+	"name" : "freertos_kernel_port",
+	"nameOnDisk" : "libfreertos_kernel_port.a",
+	"paths" : 
+	{
+		"build" : "FreeRTOS_Source/portable",
+		"source" : "FreeRTOS_Source/portable"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS_Source/portable/MSVC-MingW/port.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
