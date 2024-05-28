@@ -320,13 +320,14 @@ void vAssertCalled( unsigned long ulLine,
          * the debugger to set ulSetToNonZeroInDebuggerToContinue to a non-zero
          * value. */
         while( ulSetToNonZeroInDebuggerToContinue == 0 )
-        {
+        {/*
             __asm __volatile__ (
                 "NOP;"
                     );
             __asm __volatile__(
                     "NOP;"
                     );
+            */
         }
 
         /* Re-enable the trace recording. */
