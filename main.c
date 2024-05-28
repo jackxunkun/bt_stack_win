@@ -320,14 +320,25 @@ void vAssertCalled( unsigned long ulLine,
          * the debugger to set ulSetToNonZeroInDebuggerToContinue to a non-zero
          * value. */
         while( ulSetToNonZeroInDebuggerToContinue == 0 )
-        {/*
-            __asm __volatile__ (
-                "NOP;"
-                    );
-            __asm __volatile__(
-                    "NOP;"
-                    );
-            */
+        {
+#ifdef _MSC_VER
+            // MSVC compiler
+    #ifdef _M_IX86
+        // 32-bit MSVC
+        __asm {
+            nop // No Operation
+            nop
+        }
+    #elif defined(_M_X64)
+        // 64-bit MSVC
+        __nop();
+        __nop(); // Inserts a NOP instruction
+    #endif
+#elif defined(__GNUC__)
+            // GCC/MinGW compiler
+            __asm__ __volatile__ ("nop");
+            __asm__ __volatile__ ("nop");
+#endif
         }
 
         /* Re-enable the trace recording. */
